@@ -1,7 +1,7 @@
 .profile {
     width: 400px;
     color: white;
-    background-color: black;
+    background-color: #08122b;
     border: 1px solid transparent;
 }
 
@@ -15,6 +15,7 @@
     margin-bottom: 10px;
     border: 1px solid white;
     border-radius: 30%;
+    background-color: #082b10;
 }
 
 .name {
