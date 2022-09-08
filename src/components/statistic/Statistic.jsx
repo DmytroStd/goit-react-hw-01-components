@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types';
 import StatisticItem from './StatisticItem';
+import styles from './Statistic.module.css'
 
 
 const Statistic = ({ title, stats }) => {
   return (
     <div className="container">
-      <section className="">
-        {title && <h2 className="">{title}</h2>}
-        <ul className="">
+      <section className={styles.statistics}>
+        {title && <h2 className={styles.title}>{title}</h2>}
+        <ul className={styles.statList}>
           {stats.map(item => (
             <StatisticItem
               key={item.id}

@@ -1,0 +1,42 @@
+.statistics {
+    width: 400px;
+    color: white;
+    background-color: black;
+    border: 1px solid transparent;
+}
+
+.title {
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.statList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+/* .statisticsItem */
+.item {
+    width: calc(100% / 3);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid white;
+}
+
+.label {
+    font-size: 10px;
+    font-weight: 200;
+    padding: 5px;
+}
+
+.percentage {
+    font-size: 15px;
+    font-weight: 200;
+}
