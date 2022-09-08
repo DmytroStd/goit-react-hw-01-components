@@ -6,7 +6,7 @@ import styles from './Statistic.module.css'
 const Statistic = ({ title, stats }) => {
   return (
     <div className="container">
-      <section className={styles.statistics}>
+      <div className={styles.statistics}>
         {title && <h2 className={styles.title}>{title}</h2>}
         <ul className={styles.statList}>
           {stats.map(item => (
@@ -17,7 +17,7 @@ const Statistic = ({ title, stats }) => {
             />
           ))}
         </ul>
-       </section>
+       </div>
     </div>
   );
 };
